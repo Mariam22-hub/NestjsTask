@@ -13,16 +13,16 @@ Node.js: Ensure Node.js is installed
 npm: Comes with Node.js. Ensure npm is installed.
 MongoDB: Install and run a MongoDB instance locally or use a cloud-hosted MongoDB URI.
 
-2. ### Clone the Repository
+2. ### **2. Clone the Repository**
 ```
 git clone <repository-url>
 cd <repository-folder>
 ```
 
-3. ### Install Dependencies
+### **3. Install Dependencies**
  ```npm install```
 
-4. ### Set Up Environment Variables
+4. ### **4. Set Up Environment Variables**
 Create a .env file in the root of the project with the following variables:
 # Application
 ```PORT=3000```
@@ -37,7 +37,7 @@ JWT_EXPIRES_IN=3600s
 Replace your_jwt_secret with a secure string.
 Adjust ```MONGODB_URI``` if you're using a cloud-hosted MongoDB instance.
 
-5. ### Run the Application
+### **5. Run the Application**
 ```npm run start```
 The API will be accessible at `http://localhost:3000`.
 
