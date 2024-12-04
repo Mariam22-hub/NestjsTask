@@ -69,7 +69,7 @@ The API will be accessible at `http://localhost:3000`.
 ---
 
 ### **Testing with Postman**
-1. Import the provided Postman Collection.
+1. Please import the file called ***NestJS_API_Collection.json*** to postman to view the collection
 2. Use the **Register** and **Login** endpoints to get JWT tokens.
 3. Add the JWT token to the `Authorization` header for protected routes.
 
