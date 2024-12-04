@@ -8,8 +8,8 @@ Validation: Robust data validation using class-validator.
 Environment Configuration: Easy setup using .env files.
 Setup Instructions
 
-1. ### Prerequisites
-Node.js: Ensure Node.js is installed (version 14.x or higher).
+### **1. Prerequisites**
+Node.js: Ensure Node.js is installed
 npm: Comes with Node.js. Ensure npm is installed.
 MongoDB: Install and run a MongoDB instance locally or use a cloud-hosted MongoDB URI.
 
