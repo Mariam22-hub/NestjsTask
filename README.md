@@ -24,15 +24,15 @@ cd <repository-folder>
 
 ### **4. Set Up Environment Variables**
 Create a .env file in the root of the project with the following variables:
-# Application
+##### Application
 ```PORT=3000```
 
-# JWT Configuration
+##### JWT Configuration
 ```JWT_SECRET=your_jwt_secret
 JWT_EXPIRES_IN=3600s
 ```
 
-# MongoDB
+##### MongoDB
 ```MONGODB_URI=mongodb://localhost:27017/nest-api```
 Replace your_jwt_secret with a secure string.
 Adjust ```MONGODB_URI``` if you're using a cloud-hosted MongoDB instance.
