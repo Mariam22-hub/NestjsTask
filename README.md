@@ -11,27 +11,32 @@ Setup Instructions
 Node.js: Ensure Node.js is installed (version 14.x or higher).
 npm: Comes with Node.js. Ensure npm is installed.
 MongoDB: Install and run a MongoDB instance locally or use a cloud-hosted MongoDB URI.
+
 2. Clone the Repository
-bash```
+```
 git clone <repository-url>
-cd <repository-folder>```
+cd <repository-folder>
+```
+
 3. Install Dependencies
-bash ```npm install```
+ ```npm install```
 4. Set Up Environment Variables
 Create a .env file in the root of the project with the following variables:
 # Application
-bash ```PORT=3000```
+```PORT=3000```
 
 # JWT Configuration
-bash ```JWT_SECRET=your_jwt_secret
-JWT_EXPIRES_IN=3600s```
+```JWT_SECRET=your_jwt_secret
+JWT_EXPIRES_IN=3600s
+```
 
 # MongoDB
-bash ```MONGODB_URI=mongodb://localhost:27017/nest-api```
+```MONGODB_URI=mongodb://localhost:27017/nest-api```
 Replace your_jwt_secret with a secure string.
 Adjust MONGODB_URI if you're using a cloud-hosted MongoDB instance.
+
 5. Run the Application
-bash ```npm run start```
+```npm run start```
 The API will be accessible at `http://localhost:3000`.
 
 API Endpoints
