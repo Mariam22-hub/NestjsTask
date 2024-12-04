@@ -13,7 +13,7 @@ Node.js: Ensure Node.js is installed
 npm: Comes with Node.js. Ensure npm is installed.
 MongoDB: Install and run a MongoDB instance locally or use a cloud-hosted MongoDB URI.
 
-2. ### **2. Clone the Repository**
+### **2. Clone the Repository**
 ```
 git clone <repository-url>
 cd <repository-folder>
