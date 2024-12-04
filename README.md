@@ -22,7 +22,7 @@ cd <repository-folder>
 ### **3. Install Dependencies**
  ```npm install```
 
-4. ### **4. Set Up Environment Variables**
+### **4. Set Up Environment Variables**
 Create a .env file in the root of the project with the following variables:
 # Application
 ```PORT=3000```
